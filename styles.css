@@ -31,7 +31,7 @@ pre {
 .navbar {
   height: 100vh;
   width: 300px;
-  padding: 2rem;
+  padding: 35px;
   background-color: #F7EEE8;
   position: fixed;
   top: 0;
@@ -54,7 +54,7 @@ pre {
 
 .main-doc {
   margin-left: 300px;
-  padding: 2rem;
+  padding: 35px;
 }
 
 .main-doc img {
@@ -79,13 +79,13 @@ header {
 
 @media only screen and (max-width: 767px) {
   .navbar {
-    padding: 1rem;
+    padding: 20px;
     width: 250px;
   }
 
   .main-doc {
     margin-left: 250px;
-    padding: 1rem 2rem;
+    padding: 20px 35px;
   }
   
   .main-doc ul {
@@ -95,12 +95,11 @@ header {
 
 @media only screen and (max-width: 480px) {
   .navbar {
-    padding: 1rem;
     width: 200px;
   }
 
   .main-doc {
     margin-left: 200px;
-    padding: 1rem;
+    padding: 20px;
   }
 }
